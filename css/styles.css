@@ -198,7 +198,6 @@ a {
     color: var(--accent-color);
 
     cursor: pointer;
-    outline: transparent;
 }
 
 
@@ -500,7 +499,6 @@ a {
     line-height: 1.6;
     text-align: center;
 
-    outline: transparent;
     color: var(--text-color);
 
     transition-property: background-color, color;
@@ -545,7 +543,6 @@ a {
 
 .project-content {
     text-decoration: none;
-    outline: transparent;
 
     transition-property: box-shadow;
     transition: 250ms;
@@ -790,5 +787,4 @@ a {
     border-radius: 50%;
 
     box-sizing: border-box;
-    outline: transparent;
 }
