@@ -238,14 +238,15 @@ header > div {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border: none;
+
+	transition-property: background;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-primary:hover,
 .button-primary:focus {
 	background: var(--accent-color-2);
-	transition-property: background;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* features section */
@@ -390,6 +391,10 @@ header > div {
 	fill: currentColor;
 
 	border-radius: 50%;
+
+	transition-property: color, background-color, filter;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
@@ -402,9 +407,6 @@ header > div {
 	color: var(--light-text-color);
 	background-color: var(--accent-color-2);
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	transition-property: color, background-color, filter;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Customers */
@@ -427,6 +429,10 @@ header > div {
 	border: 1px solid currentColor;
 	box-sizing: border-box;
 	border-radius: 4px;
+
+	transition-property: color, filter;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-icon {
@@ -438,9 +444,6 @@ header > div {
 .logo-link:focus {
 	color: var(--accent-color);
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	transition-property: color, filter;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* portfolio */
@@ -466,6 +469,10 @@ header > div {
 	text-align: center;
 
 	color: var(--accent-color);
+
+	transition-property: color, border-color, background-color, box-shadow;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons:focus,
@@ -475,9 +482,6 @@ header > div {
 	color: var(--light-text-color);
 	background-color: var(--accent-color-2);
 	box-shadow: 0 0.5em 0.5em -0.4em var(--text-color);
-	transition-property: color, border-color, background-color, box-shadow;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-section {
@@ -545,7 +549,7 @@ header > div {
 	background-color: var(--accent-color);
 
 	transform: translateY(100%);
-	transition: 250ms ease;
+	transition-duration: 250ms;
 
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -612,6 +616,10 @@ header > div {
 	background: rgba(255, 255, 255, 0.1);
 
 	border-radius: 50%;
+
+	transition-property: background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-links {
@@ -626,9 +634,6 @@ header > div {
 .footer-icon-link:hover,
 .footer-icon-link:focus {
 	background-color: var(--accent-color);
-	transition-property: background-color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Backdrop */
