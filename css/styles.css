@@ -696,6 +696,10 @@ header > div {
 	border-radius: 50%;
 
 	box-sizing: border-box;
+
+	transition-property: color, background-color, border-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover,
@@ -703,7 +707,4 @@ header > div {
 	color: var(--main-background-color);
 	background-color: var(--accent-color-2);
 	border-color: var(--accent-color-2);
-	transition-property: color, background-color, border-color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
